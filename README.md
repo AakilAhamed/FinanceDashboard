@@ -101,15 +101,28 @@ Authorization: Bearer <token>
   - /swagger-ui.html
 - All other endpoints require authentication.
 
-## Mock Credentials
+## Seed Accounts for Testing
 
 > **Warning:** These accounts are seeded for local development and testing only. Do not use them in production.
 
-| Name | Role | Email | Password |
-|------|------|-------|----------|
-| Super Admin | ADMIN | superadmin@example.com | superadmin123 |
-| Jane Doe | ANALYST | analyst@example.com | analyst123 |
-| Jane Smith | VIEWER | viewer@example.com | viewer123 |
+```text
+Use these seeded accounts after starting the backend locally:
+
+1. Super Admin
+  Role: ADMIN
+  Email: superadmin@example.com
+  Password: superadmin123
+
+2. Jane Doe
+  Role: ANALYST
+  Email: analyst@example.com
+  Password: analyst123
+
+3. John Doe
+  Role: VIEWER
+  Email: viewer@example.com
+  Password: viewer123
+```
 
 ---
 
