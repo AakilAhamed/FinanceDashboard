@@ -382,13 +382,9 @@ Run tests with:
 
 ![C4 Level 1 Context Diagram](docs/diagrams/c4-level1-context.svg)
 
-Source: [`docs/diagrams/c4-level1-context.puml`](docs/diagrams/c4-level1-context.puml)
-
 ### API Flow Diagram (PlantUML Sequence)
 
 ![API Flow Diagram](docs/diagrams/api-flow.svg)
-
-Source: [`docs/diagrams/api-flow.puml`](docs/diagrams/api-flow.puml)
 
 ### Swagger UI
 
