@@ -101,6 +101,16 @@ Authorization: Bearer <token>
   - /swagger-ui.html
 - All other endpoints require authentication.
 
+## Mock Credentials
+
+> **Warning:** These accounts are seeded for local development and testing only. Do not use them in production.
+
+| Name | Role | Email | Password |
+|------|------|-------|----------|
+| Super Admin | ADMIN | superadmin@example.com | superadmin123 |
+| Jane Doe | ANALYST | analyst@example.com | analyst123 |
+| Jane Smith | VIEWER | viewer@example.com | viewer123 |
+
 ---
 
 ## Roles and Permissions
@@ -160,8 +170,8 @@ POST /api/auth/login
 Content-Type: application/json
 
 {
-  "email": "admin@example.com",
-  "password": "password123"
+  "email": "superadmin@example.com",
+  "password": "superadmin123"
 }
 ```
 
